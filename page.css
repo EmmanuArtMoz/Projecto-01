@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#fff;
+    align-items: center; 
+    background-position: center; 
+     background-size: cover;
+
+
+}
+
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    background: rgb(17, 253, 155);
+
+ 
+}
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:  rgb(17, 253, 155);
+}
+header{
+background: rgb(255, 136, 0);
+}#menu{
+    display: flex;
+    list-style: none;
+    gab: .5rem;
+}
+#menu a{
+    display: block;
+    padding: .5rem;
+ 
+}
+#menu2{
+    display: flex;
+    list-style: none;
+    gab: .5rem; 
+}
+#menu2 a {
+    display: block;
+    padding: .5rem;
+ 
+}
+#btnmenu{
+    display: none;
+    color: #fff;
+
+}
+
+
+.box{
+    height:90vh;
+    width: 100%;
+    
+    background-image: url(in/cheerful-mood-group-of-people-at-business-conference-in-modern-classroom-at-daytime\ \(3\).jpg);
+    align-items: center; 
+      background-position: center; 
+       background-size: cover;
+position: relative;
+}
+.box::before{
+    position:absolute;
+    content: '';
+    background-color:black ;
+    top: 0; left: 0; right:0; bottom: 0;
+    opacity: .5;
+
+}
+
+.titulo{
+     position: relative;
+    margin-left: 8%;
+    font-size: 25px;
+    color: #fff;
+}
+.img-f{    position: relative;
+     margin-top: 15%;
+    margin-left: 14%;
+    width: 150px;
+    height: 150px;
+}
+.texto{
+    margin-left: 14%;
+    font-size:15px;
+    color: #fff;
+}
+.box1{
+    height:50vh;
+    width: 100%;
+    background-color: rgb(0, 255, 136);
+}
+.fa-solid{
+ 
+    margin-top: 3%;
+    margin-left: 30%;
+    font-size: 65px;
+    color: #fff;
+
+}
+.titulo2{
+
+    margin-left: 30%;
+    font-size: 25px;
+    color: #fff;
+}
+
+.texto2{
+margin-top: 2%;
+    margin-left: 9%;
+    font-size:18px;
+    color: #fff;
+}
+.but{
+    margin-left: 15%;
+    margin-top: 2%;
+    height:50px;
+    width: 150px;
+    border: none;
+    background-color: #fff;
+    color: orange;
+    cursor: pointer;
+}
+.but:hover{
+background: greenyellow;
+}
+
+
+.box4{
+    margin-top: 5%;
+    margin-left: 10%;
+
+
+}
+.titulo-faculdade{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 25%;   color: rgb(255, 145, 0);
+}
+.texto-F{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 3%;
+    margin-left: 15%;color: rgb(255, 145, 0);
+}
+.box3{
+    margin-top: 5%;
+    width: 100%;
+    height: 60vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.b1{
+    background-image: url('in/covid-19.png');
+    align-items: center; 
+      background-position: center; 
+       background-size: cover;
+    width: 700px;
+    height: 60vh
+}
+.b2{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height:70vh;
+}
+.box5{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 255, 136);
+}
+.copy{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 38%;
+    margin-top: 5%;
+   
+}
+@media (max-width:600px){
+  .img-f{
+    margin-left: 45%;
+    margin-top: 39%;
+  }
+  .titulo{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 25%;
+    margin-top: 8%;
+  }
+  .texto{
+    font-size: 18px;
+    color: rgba(255, 123, 0, 0.952);
+    margin-left: 25%;margin-top: 2%;
+  }
+  .fa-graduation-cap{
+    width:20px ;
+    height: 10px; 
+    margin-left: 43%;
+
+  }
+  .titulo2{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-left: 20%;
+    margin-top: 4%;
+   
+  }
+  .but{
+width:150px ;
+height: 30px;
+font-size: 10px;
+  }
+  .texto2{
+    margin-top: 14%;
+    font-size: 12px;
+  }
+  .slider{
+    width:470px ;
+    height: 400px; 
+    margin-left: 3%;
+  }
+  .slides{
+    width:400px ;
+    height: 200px; 
+  }
+  .slide{
+    width:400px ;
+    height: 200px; 
+  }
+.radio{
+    width:150px ;
+    height: 30px;
+    margin-top: 45%;
+    margin-left: 45%;
+}
+.nav-auto{
+    width:400px ;
+    height: 200px; 
+    margin-left: 35%;
+    margin-top: 45%;
+}
+.nav-manuel{
+    width:10px ;
+    height: 10px;
+    margin-left: 45%;
+    margin-top: 35%;
+}
+.titulo-faculdade{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-left: 12%; 
+}
+
+
+.texto-F{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+.box5{
+
+}
+.copy{
+
+    margin-top:5%;
+    margin-left:35%;
+color: #fff;
+    font-size: 10px;
+}
+}
